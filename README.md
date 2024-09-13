@@ -1,3 +1,5 @@
+# Quiz App
+
 Hello everyone,
 
 This project is a quiz app developed using React.js and Vite.js
