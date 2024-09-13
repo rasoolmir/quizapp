@@ -1,0 +1,135 @@
+.container {
+    width: 327px;
+    height: 686px;
+    margin: auto;
+    background: #ffff;
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+
+.result-text {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #737373;
+}
+ ul {
+    padding: 0;
+    
+}
+li {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    padding-left: 15px;
+    border: 1px solid #a8a5a5;
+    border-radius: 18px;
+    margin: 15px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #737373;
+    cursor: pointer;
+}
+
+.next-btn {
+    width: 100%;
+    height: 52px;
+    background: #3EB8D4;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+.back-btn {
+  background: none;
+  color: #3EB8D4;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+} 
+
+.reset-btn {
+  width: 100%;
+    height: 52px;
+    background: #3EB8D4;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+.correct {
+    background: #DCF8FF;
+    border-color: #3EB8D4;
+    color: #3EB8D4;
+    
+}
+
+.wrong {
+    background: #FFDFDC;
+    border-color: #FF5341;
+    color: #FF5341;
+}
+
+.container .index {
+    color: #3EB8D4;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+ .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.circle-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #737373;
+  background: #ffff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-box {
+  background-color: #DCF8FF;
+  border-radius: 16px;
+  margin-top: -43px;
+  height: 194px;
+}
+
+.question-box h2 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #1C1C1C;
+  padding-top: 80px;
+}

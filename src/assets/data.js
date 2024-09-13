@@ -1,0 +1,42 @@
+export const data = [
+{
+    question: "JavaScript function keyword",
+    option1: "function",
+    option2: "func",
+    option3: "def",
+    option4: "List",
+    answer: 1,
+},
+{
+    question: "Css text color?",
+    option1: "text-color",
+    option2: "color",
+    option3: "font-color",
+    option4: "text-style",
+    answer: 2,
+},
+{
+    question: "What does GUI stand for?",
+    option1: "Graphical user interface",
+    option2: "Gateway using Intel",
+    option3: "Good used iPhone",
+    option4: "Global user index",
+    answer: 1,
+},
+{
+    question: "What dose CSS stand for ?",
+    option1: "Computer Style Sheets",
+    option2: "Cascading Style Sheets",
+    option3: "Creating Style Sheets",
+    option4: "Colorful Style Sheets",
+    answer: 2,
+},
+{
+    question: "What dose JS stand for ?",
+    option1: "JavaSource",
+    option2: "JustScript",
+    option3: "JavaScript",
+    option4: "JScript",
+    answer: 3,
+},
+];
